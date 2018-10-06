@@ -14,6 +14,7 @@
 		FA151B8D216641F3007C6B53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA151B8B216641F3007C6B53 /* LaunchScreen.storyboard */; };
 		FA151B98216641F3007C6B53 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA151B97216641F3007C6B53 /* FoodTrackerTests.swift */; };
 		FA7AB20021670DDC00AC59EB /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7AB1FF21670DDC00AC59EB /* RatingControl.swift */; };
+		FA7AB20221690F5500AC59EB /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7AB20121690F5400AC59EB /* Meal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		FA151B97216641F3007C6B53 /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		FA151B99216641F3007C6B53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA7AB1FF21670DDC00AC59EB /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		FA7AB20121690F5400AC59EB /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				FA151B84216641F3007C6B53 /* ViewController.swift */,
 				FA7AB1FF21670DDC00AC59EB /* RatingControl.swift */,
 				FA151B86216641F3007C6B53 /* Main.storyboard */,
+				FA7AB20121690F5400AC59EB /* Meal.swift */,
 				FA151B89216641F3007C6B53 /* Assets.xcassets */,
 				FA151B8B216641F3007C6B53 /* LaunchScreen.storyboard */,
 				FA151B8E216641F3007C6B53 /* Info.plist */,
@@ -202,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA7AB20221690F5500AC59EB /* Meal.swift in Sources */,
 				FA151B85216641F3007C6B53 /* ViewController.swift in Sources */,
 				FA7AB20021670DDC00AC59EB /* RatingControl.swift in Sources */,
 				FA151B83216641F3007C6B53 /* AppDelegate.swift in Sources */,
