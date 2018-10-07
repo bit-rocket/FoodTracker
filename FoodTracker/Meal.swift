@@ -16,12 +16,20 @@ class Meal {
     
     // Mark: Initializations
     init?(name: String, photo: UIImage?, rating: Int) {
-        self.name = name
-        self.photo = photo!
-        self.rating = rating
         
-        if rating < 0 || name.isEmpty {
+        guard !name.isEmpty else {
             return nil
         }
+        
+        guard !(rating < 0 || rating > 5) else {
+            return nil
+        }
+        
+        self.name = name
+        self.photo = UIImage()
+        if let pt = photo {
+            self.photo = pt
+        }
+        self.rating = rating
     }
 }
