@@ -48,7 +48,7 @@
                                     <outlet property="nameLabel" destination="qZu-wd-rLx" id="ck7-CW-bxG"/>
                                     <outlet property="photoImageView" destination="Yla-Uc-Bnq" id="3mN-Wd-8F6"/>
                                     <outlet property="ratingControl" destination="DOs-Ho-bWa" id="u6h-iO-xRO"/>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="v1h-PB-Xfs"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="ShowDetail" id="v1h-PB-Xfs"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
