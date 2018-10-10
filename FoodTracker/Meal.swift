@@ -33,10 +33,12 @@ class Meal: NSObject, NSCoding {
     init?(name: String, photo: UIImage?, rating: Int) {
         
         guard !name.isEmpty else {
+            os_log("name is empty!", log: OSLog.default, type: .debug)
             return nil
         }
         
         guard !(rating < 0 || rating > 5) else {
+            os_log("rating is error!", log: OSLog.default, type: .debug)
             return nil
         }
         
@@ -61,9 +63,9 @@ class Meal: NSObject, NSCoding {
             return nil
         }
         let photo = aDecoder.decodeObject(forKey: Property.photo) as? UIImage
-        let rating = aDecoder.decodeObject(forKey: Property.rating)
+        let rating  = aDecoder.decodeInteger(forKey: Property.rating)
         
-        self.init(name: name, photo: photo, rating: rating as! Int)
+        self.init(name: name, photo: photo, rating: rating)
     }
 
 }
